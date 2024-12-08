@@ -1,0 +1,14 @@
+server:
+  port: 8080
+
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/tasks
+    username: root
+    password: **********
+
+
+  jpa:
+    database:
+      database-platform: org.hibernate.dialect.MySQLDialect
+    show-sql: true
